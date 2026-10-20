@@ -1,0 +1,5 @@
+* text=auto eol=lf
+# Preservar os bytes usados pelos hashes do manifesto em qualquer sistema.
+data/raw/* -text
+*.png binary
+*.pdf binary

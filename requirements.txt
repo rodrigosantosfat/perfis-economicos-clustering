@@ -1,0 +1,11 @@
+# Ambiente de análise usado e validado com Python 3.12.
+numpy==2.5.4
+pandas==3.0.1
+scipy==1.16.3
+scikit-learn==1.7.2
+matplotlib==3.10.7
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==6.30.1
+# Para gerar o relatório PDF opcional:
+reportlab==4.4.9
