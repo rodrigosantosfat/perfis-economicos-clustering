@@ -1,0 +1,371 @@
+{
+  "quality": {
+    "n_rows": 63,
+    "n_countries": 3,
+    "year_min": 2004,
+    "year_max": 2024,
+    "missing_by_column": {
+      "gdp_per_capita": 0,
+      "productivity": 0,
+      "labor_share": 0,
+      "agriculture": 0,
+      "industry": 0,
+      "services": 0,
+      "income_bottom50": 0,
+      "income_middle40": 0,
+      "income_top10": 0
+    },
+    "missing_total": 0,
+    "duplicate_country_year": 0,
+    "composition_totals_before_closure": {
+      "setores": {
+        "soma_min": 99.99998957288,
+        "soma_max": 100.00001108167
+      },
+      "renda": {
+        "soma_min": 99.99,
+        "soma_max": 100.01
+      }
+    }
+  },
+  "features": [
+    "log_gdp_per_capita",
+    "log_productivity",
+    "labor_share",
+    "ilr_agriculture_industry",
+    "ilr_agri_industry_services",
+    "ilr_bottom50_middle40",
+    "ilr_bottom_middle_top10"
+  ],
+  "n_features": 7,
+  "feature_notes": {
+    "log": "Logaritmo natural de PIB per capita e produtividade.",
+    "ilr_1": "ln(parte1/parte2) / sqrt(2)",
+    "ilr_2": "sqrt(2/3) * ln(sqrt(parte1*parte2)/parte3)",
+    "composition_order_sectors": [
+      "agriculture",
+      "industry",
+      "services"
+    ],
+    "composition_order_income": [
+      "income_bottom50",
+      "income_middle40",
+      "income_top10"
+    ],
+    "scaling": "StandardScaler; ajustado novamente em cada subconjunto de robustez.",
+    "identifiers": "country e year nunca entram no espaço de atributos.",
+    "imputation": "Mediana aprendida somente no subconjunto de ajuste; não acionada se a base está completa."
+  },
+  "selection_rule": "Cobertura 100%, 2 a 6 grupos, menor grupo >=4; maior silhouette, desempate por menor Davies–Bouldin.",
+  "n_configurations": 34,
+  "n_eligible": 8,
+  "selected": {
+    "config": {
+      "family": "KMeans",
+      "k": 3
+    },
+    "metrics": {
+      "config_id": 1,
+      "family": "KMeans",
+      "k": 3.0,
+      "n_clusters": 3,
+      "smallest_cluster": 21,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "metric_scope": "painel_completo",
+      "silhouette": 0.6684189236568921,
+      "davies_bouldin": 0.5808604851629866,
+      "calinski_harabasz": 146.4451226419473,
+      "eligible": true,
+      "eps": null,
+      "min_samples": null
+    }
+  },
+  "baseline": {
+    "config": {
+      "family": "KMeans",
+      "k": 2
+    },
+    "metrics": {
+      "config_id": 0,
+      "family": "KMeans",
+      "k": 2.0,
+      "n_clusters": 2,
+      "smallest_cluster": 21,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "metric_scope": "painel_completo",
+      "silhouette": 0.5440434566757698,
+      "davies_bouldin": 0.64169222345487,
+      "calinski_harabasz": 73.17559977001282,
+      "eligible": true,
+      "eps": null,
+      "min_samples": null
+    }
+  },
+  "silhouette_gain_vs_baseline": 0.12437546698112234,
+  "dbscan_exploratory": {
+    "config": {
+      "family": "DBSCAN",
+      "eps": 0.35,
+      "min_samples": 5
+    },
+    "metrics": {
+      "config_id": 12,
+      "family": "DBSCAN",
+      "k": null,
+      "n_clusters": 2,
+      "smallest_cluster": 8,
+      "coverage": 0.30158730158730157,
+      "noise_count": 44,
+      "metric_scope": "somente_sem_ruido",
+      "silhouette": 0.9117777325079963,
+      "davies_bouldin": 0.11937859141873862,
+      "calinski_harabasz": 972.4695103872924,
+      "eligible": false,
+      "eps": 0.35,
+      "min_samples": 5.0
+    },
+    "warning": "Se há ruído, silhouette é calculada apenas no subconjunto agrupado e não comparada diretamente à seleção principal."
+  },
+  "robustness_block_method": "Todos os 18 blocos contíguos de quatro anos, de 2004–2007 a 2021–2024, excluídos simultaneamente de BRA, CHN e USA (12 linhas por bloco). Reajuste completo sem as linhas excluídas; ARI nas 51 linhas remanescentes versus partição de referência restrita.",
+  "robustness": [
+    {
+      "family": "KMeans",
+      "config": {
+        "family": "KMeans",
+        "k": 3
+      },
+      "n_tests": 18,
+      "valid_tests": 18,
+      "degenerate_tests": 0,
+      "ari_mean": 1.0,
+      "ari_min": 1.0,
+      "ari_max": 1.0,
+      "ari_std": 0.0,
+      "coverage_mean": 1.0,
+      "note": "ARI inclui a categoria ruído quando presente; não há rótulos de referência externos."
+    },
+    {
+      "family": "Ward",
+      "config": {
+        "family": "Ward",
+        "k": 3
+      },
+      "n_tests": 18,
+      "valid_tests": 18,
+      "degenerate_tests": 0,
+      "ari_mean": 1.0,
+      "ari_min": 1.0,
+      "ari_max": 1.0,
+      "ari_std": 0.0,
+      "coverage_mean": 1.0,
+      "note": "ARI inclui a categoria ruído quando presente; não há rótulos de referência externos."
+    },
+    {
+      "family": "DBSCAN",
+      "config": {
+        "family": "DBSCAN",
+        "eps": 2.0,
+        "min_samples": 3
+      },
+      "n_tests": 18,
+      "valid_tests": 18,
+      "degenerate_tests": 0,
+      "ari_mean": 0.9983812483812484,
+      "ari_min": 0.9708624708624709,
+      "ari_max": 1.0,
+      "ari_std": 0.006674283905752484,
+      "coverage_mean": 0.9989106753812637,
+      "note": "ARI inclui a categoria ruído quando presente; não há rótulos de referência externos."
+    }
+  ],
+  "seed_sensitivity": {
+    "n_seeds": 20,
+    "ari_min": 1.0,
+    "ari_mean": 1.0
+  },
+  "sensitivity": [
+    {
+      "variant": "completo_standard",
+      "n_features": 7,
+      "features": "log_gdp_per_capita;log_productivity;labor_share;ilr_agriculture_industry;ilr_agri_industry_services;ilr_bottom50_middle40;ilr_bottom_middle_top10",
+      "family": "KMeans",
+      "ari_vs_selected": 1.0,
+      "n_clusters": 3,
+      "smallest_cluster": 21,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "metric_scope": "painel_completo",
+      "silhouette": 0.6684189236568921,
+      "davies_bouldin": 0.5808604851629866,
+      "calinski_harabasz": 146.4451226419473,
+      "eligible": true
+    },
+    {
+      "variant": "sem_composicao_renda",
+      "n_features": 5,
+      "features": "log_gdp_per_capita;log_productivity;labor_share;ilr_agriculture_industry;ilr_agri_industry_services",
+      "family": "KMeans",
+      "ari_vs_selected": 1.0,
+      "n_clusters": 3,
+      "smallest_cluster": 21,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "metric_scope": "painel_completo",
+      "silhouette": 0.7268680618735608,
+      "davies_bouldin": 0.4040128754641336,
+      "calinski_harabasz": 344.16442686085577,
+      "eligible": true
+    },
+    {
+      "variant": "sem_pib_e_produtividade",
+      "n_features": 5,
+      "features": "labor_share;ilr_agriculture_industry;ilr_agri_industry_services;ilr_bottom50_middle40;ilr_bottom_middle_top10",
+      "family": "KMeans",
+      "ari_vs_selected": 1.0,
+      "n_clusters": 3,
+      "smallest_cluster": 21,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "metric_scope": "painel_completo",
+      "silhouette": 0.6623612657755787,
+      "davies_bouldin": 0.6135929441434861,
+      "calinski_harabasz": 119.53961666420383,
+      "eligible": true
+    },
+    {
+      "variant": "sem_participacao_trabalho",
+      "n_features": 6,
+      "features": "log_gdp_per_capita;log_productivity;ilr_agriculture_industry;ilr_agri_industry_services;ilr_bottom50_middle40;ilr_bottom_middle_top10",
+      "family": "KMeans",
+      "ari_vs_selected": 1.0,
+      "n_clusters": 3,
+      "smallest_cluster": 21,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "metric_scope": "painel_completo",
+      "silhouette": 0.6610547337035628,
+      "davies_bouldin": 0.6118699502839965,
+      "calinski_harabasz": 142.55686536151086,
+      "eligible": true
+    },
+    {
+      "variant": "completo_robust_scaler",
+      "n_features": 7,
+      "features": "log_gdp_per_capita;log_productivity;labor_share;ilr_agriculture_industry;ilr_agri_industry_services;ilr_bottom50_middle40;ilr_bottom_middle_top10",
+      "family": "KMeans",
+      "ari_vs_selected": 0.6633761105626851,
+      "n_clusters": 3,
+      "smallest_cluster": 12,
+      "coverage": 1.0,
+      "noise_count": 0,
+      "metric_scope": "painel_completo",
+      "silhouette": 0.5705108362299528,
+      "davies_bouldin": 0.6860497972298729,
+      "calinski_harabasz": 75.41197476215817,
+      "eligible": true
+    }
+  ],
+  "pca_explained_variance_ratio": [
+    0.6356902244693731,
+    0.2542372996158271
+  ],
+  "pca_total_explained_2d": 0.8899275240852002,
+  "cluster_counts": {
+    "1": 21,
+    "2": 21,
+    "3": 21
+  },
+  "country_cluster_counts": {
+    "BRA": {
+      "1": 0,
+      "2": 21,
+      "3": 0
+    },
+    "CHN": {
+      "1": 21,
+      "2": 0,
+      "3": 0
+    },
+    "USA": {
+      "1": 0,
+      "2": 0,
+      "3": 21
+    }
+  },
+  "cluster_profiles_medians": [
+    {
+      "cluster": 1,
+      "n_observations": 21,
+      "countries": "CHN",
+      "gdp_per_capita": 7686.3736952,
+      "productivity": 25449.83,
+      "labor_share": 51.419,
+      "agriculture": 29.5004728043,
+      "industry": 29.9004572371,
+      "services": 40.5990776614,
+      "income_bottom50": 13.93,
+      "income_middle40": 43.36,
+      "income_top10": 42.74,
+      "median_z_log_gdp_per_capita": -0.7046649085107776,
+      "median_z_log_productivity": -0.8827064265755962,
+      "median_z_labor_share": -1.2802843906702972,
+      "median_z_ilr_agriculture_industry": 0.9801251373120842,
+      "median_z_ilr_agri_industry_services": 1.1809070578309009,
+      "median_z_ilr_bottom50_middle40": 0.0433605714336752,
+      "median_z_ilr_bottom_middle_top10": 0.8215260718676668
+    },
+    {
+      "cluster": 2,
+      "n_observations": 21,
+      "countries": "BRA",
+      "gdp_per_capita": 8771.44051292,
+      "productivity": 40241.34,
+      "labor_share": 58.4,
+      "agriculture": 9.79792938881,
+      "industry": 23.2195353331,
+      "services": 67.119862566,
+      "income_bottom50": 9.64,
+      "income_middle40": 31.6,
+      "income_top10": 58.75,
+      "median_z_log_gdp_per_capita": -0.5685370011965336,
+      "median_z_log_productivity": -0.2840075421934683,
+      "median_z_labor_share": 0.5860370651701278,
+      "median_z_ilr_agriculture_industry": 0.21497170888700268,
+      "median_z_ilr_agri_industry_services": -0.07021889813970703,
+      "median_z_ilr_bottom50_middle40": -0.9852584447373312,
+      "median_z_ilr_bottom_middle_top10": -1.3570246336251734
+    },
+    {
+      "cluster": 3,
+      "n_observations": 21,
+      "countries": "USA",
+      "gdp_per_capita": 55665.2411188,
+      "productivity": 131689.95,
+      "labor_share": 58.537,
+      "agriculture": 1.77470537065,
+      "industry": 19.6785067043,
+      "services": 78.4780350193,
+      "income_bottom50": 13.48,
+      "income_middle40": 41.63,
+      "income_top10": 45.36,
+      "median_z_log_gdp_per_capita": 1.3363545373259946,
+      "median_z_log_productivity": 1.2651255739844782,
+      "median_z_labor_share": 0.6226630556371294,
+      "median_z_ilr_agriculture_industry": -1.309794696815348,
+      "median_z_ilr_agri_industry_services": -1.1791061802697953,
+      "median_z_ilr_bottom50_middle40": 0.49466175693856373,
+      "median_z_ilr_bottom_middle_top10": 0.4690023456330281
+    }
+  ],
+  "transitions": [],
+  "limitations": [
+    "Somente três países e 21 anos: resultados descritivos do painel selecionado, sem representatividade mundial.",
+    "Observações sucessivas de um país são dependentes; estabilidade por blocos não fornece inferência causal nem intervalos de confiança.",
+    "Indicadores econômicos correlacionados podem aumentar implicitamente o peso de certas dimensões; análise de sensibilidade documentada.",
+    "As métricas internas usam geometria dos próprios atributos, sem verdade externa para confirmar os grupos.",
+    "Rótulos de grupo são categorias ordenadas pelo PIB mediano, sem interpretação de ranking de qualidade de vida.",
+    "Não foi realizada previsão, classificação supervisionada ou avaliação de generalização fora destes países."
+  ]
+}

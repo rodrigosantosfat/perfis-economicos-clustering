@@ -1,0 +1,101 @@
+{
+  "extracted_at_utc": "2026-10-20T22:01:11.593323+00:00",
+  "period": [
+    2004,
+    2024
+  ],
+  "countries": [
+    "BRA",
+    "CHN",
+    "USA"
+  ],
+  "selection": "Local snapshot, no online refresh",
+  "original_files": [
+    {
+      "file": "API_NY.GDP.PCAP.KD_DS2_en_csv_v2_329799/API_NY.GDP.PCAP.KD_DS2_en_csv_v2_329799.csv",
+      "bytes": 303750,
+      "sha256": "c3699be875c9d8ec6939b4be6ff9579482c9522ed840d3c78da8b605202c8c5e",
+      "source_rows": 265
+    },
+    {
+      "file": "API_NY.GDP.PCAP.KD_DS2_en_csv_v2_329799/Metadata_Indicator_API_NY.GDP.PCAP.KD_DS2_en_csv_v2_329799.csv",
+      "bytes": 950,
+      "sha256": "afbafae655c8dc1103b25157280dae353f2f40d74d6f56871a0dbeb98a2a30a0",
+      "source_rows": 1
+    },
+    {
+      "file": "GDP_211P_NOC_NB_A-20260919T1910.csv/GDP_211P_NOC_NB_A-20260919T1910.csv",
+      "bytes": 508560,
+      "sha256": "167a2f3131ad01cd9f201a5ddf393c66b64c0b1ab15e1e22cfa9052453c9ae9d",
+      "source_rows": 10188
+    },
+    {
+      "file": "SDG_1041_NOC_RT_A-20260919T1910.csv/SDG_1041_NOC_RT_A-20260919T1910.csv",
+      "bytes": 313722,
+      "sha256": "5873078c17eb9cd597da520e8d978db2e5ebb0348854a60cb6f66f11db681a8f",
+      "source_rows": 6329
+    },
+    {
+      "file": "world_bank_sector_employment/SL.AGR.EMPL.ZS.csv",
+      "bytes": 13935,
+      "sha256": "7f3000880ea4f767aec55f077d67c164b3e3ad4cb60a5bc04d55bb8b5d2c80bf",
+      "source_rows": 102
+    },
+    {
+      "file": "world_bank_sector_employment/SL.IND.EMPL.ZS.csv",
+      "bytes": 13627,
+      "sha256": "f61478d75678ab069142d9d5cc3b52ed6fdf9d3937459f65bddde3a467221658",
+      "source_rows": 102
+    },
+    {
+      "file": "world_bank_sector_employment/SL.SRV.EMPL.ZS.csv",
+      "bytes": 13635,
+      "sha256": "6a60e7a93235c8a49148a568fc4593b9011cc7eef4d04ed21a0212646201ee78",
+      "source_rows": 102
+    },
+    {
+      "file": "wid_all_data/WID_data_BR.csv",
+      "bytes": 24151525,
+      "sha256": "08270a096b4683ae6b4a4f2b24ee15df770cb0258ed5320a237cc59bbc0ed77a",
+      "source_rows": 562338
+    },
+    {
+      "file": "wid_all_data/WID_metadata_BR.csv",
+      "bytes": 3175260,
+      "sha256": "3c14ac510dbbbc4c136ffe6b77cf66353ef078cb50b2df80f9d5b4c4cf731bf3",
+      "source_rows": 1765
+    },
+    {
+      "file": "wid_all_data/WID_data_CN.csv",
+      "bytes": 25677393,
+      "sha256": "29f13479f81aef569714e1b5806c49473ad686745df7f053d3ca59bd70297d4a",
+      "source_rows": 599165
+    },
+    {
+      "file": "wid_all_data/WID_metadata_CN.csv",
+      "bytes": 3043886,
+      "sha256": "c98bccdf417f6604437d68943723d60a9d3775d34e1f31507ad437ba617d520b",
+      "source_rows": 1728
+    },
+    {
+      "file": "wid_all_data/WID_data_US.csv",
+      "bytes": 53297839,
+      "sha256": "ffca2b9eef776420b4f2754b2598a6bc81382f8f9604f78327aa6c02341d06b4",
+      "source_rows": 1239382
+    },
+    {
+      "file": "wid_all_data/WID_metadata_US.csv",
+      "bytes": 3916522,
+      "sha256": "7643659c9bc9fef11b6f9f141c4eacc2a441b9595f2e76ab26f9a959a96496db",
+      "source_rows": 2161
+    }
+  ],
+  "snapshot_files": {
+    "ilostat.csv": "e1491938488ecbcacae945816550939f854f3701c146c01c98a794fe0ba69ad8",
+    "wb_gdp.csv": "cc1aadcdbe2e51547806f7c15eb99af123732f58c51864cc7b5eb1ce0d9b66e6",
+    "wb_gdp_metadata.csv": "f01ea682f70f08fdb5e3610653e00390c43751b011a91a0fab5cd7a67bfa80ec",
+    "wb_sectors.csv": "568c176c1c4ed8566a64cc9848b23218482499af1ba7bf26facb3c12c1230deb",
+    "wid_income.csv": "a94d1dd95efed4f5a2025e89babdaac1d8068f4d08917eec24d4bf839621a1f4",
+    "wid_metadata.csv": "353a3b8720b8f0f692b84dc3c58afb4ba60e4fcce6abaad86ffc33a1f2606114"
+  }
+}

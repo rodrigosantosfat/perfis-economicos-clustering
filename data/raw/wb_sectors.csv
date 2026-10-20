@@ -1,0 +1,190 @@
+country,country_name,year,value,indicator,indicator_name,feature
+BRA,Brazil,2004,14.8280199077045,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2005,14.3285033979698,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2006,13.3626279719814,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2007,12.4684533242586,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2008,11.6716010643413,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2009,11.2787023091694,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2010,10.5153618588412,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2011,9.91359783747564,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2012,9.84814738146128,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2013,10.026069695524,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2014,9.30650434255853,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2015,9.33239155729419,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2016,9.79792938880965,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2017,9.19143068916888,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2018,9.05694322318805,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2019,8.87727798547265,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2020,9.31407456340287,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2021,9.4956089681342,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2022,8.73144037065037,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2023,8.20281833943009,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2024,7.71565234574918,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2004,46.9002521281439,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2005,44.8001963078147,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2006,42.6004881144556,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2007,40.8000442662963,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2008,39.6000709393206,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2009,38.0998847578432,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2010,36.7006103588109,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2011,34.7997907041488,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2012,33.600592285725,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2013,31.4002857020434,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2014,29.5004728042914,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2015,28.3004717268993,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2016,27.4221249065299,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2017,26.6835826166189,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2018,25.7514953274594,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2019,24.7219896643701,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2020,23.5998596785258,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2021,22.8687780404897,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2022,24.0801085619325,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2023,22.8008772042629,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+CHN,China,2024,22.216498294765,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2004,1.86556254488759,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2005,1.80175738688274,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2006,1.77470537064913,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2007,1.67663483829058,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2008,1.71756180762692,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2009,1.73206959313867,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2010,1.85195450028334,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2011,1.87146407894409,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2012,1.80265090362838,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2013,1.72950794487142,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2014,1.76919324552367,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2015,1.89654672691753,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2016,1.89639178595969,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2017,1.88251210793922,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2018,1.8191184184211,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2019,1.78830473970119,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2020,1.74639361793943,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2021,1.6624029464832,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2022,1.62054352999574,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2023,1.5696095192715,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+USA,United States,2024,1.5689918084039,SL.AGR.EMPL.ZS,Employment in agriculture (% of total employment) (modeled ILO estimate),agriculture
+BRA,Brazil,2004,23.2195353331464,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2005,23.5943608547398,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2006,23.548846005631,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2007,24.1212243014945,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2008,24.8662804129767,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2009,24.3010274140295,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2010,24.182834770095,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2011,23.9090812385977,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2012,23.8203108792852,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2013,23.6555352577017,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2014,23.5736439351302,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2015,22.8198148101811,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2016,21.3696192250729,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2017,20.9444754522106,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2018,20.5300447836496,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2019,20.402627457781,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2020,20.2564807940549,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2021,20.7334776442454,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2022,20.4917034979733,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2023,20.171570324784,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2024,20.3022250193292,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2004,22.4994633352348,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2005,23.8000197014041,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2006,25.1993927171682,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2007,26.799965080269,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2008,27.1998176284931,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2009,27.8001237336841,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2010,28.6998228439976,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2011,29.5001327749191,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2012,30.2995918411543,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2013,30.099901194464,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2014,29.9004572371177,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2015,29.2998175326072,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2016,29.6444492814543,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2017,29.9706060456204,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2018,30.3637847933889,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2019,30.7587386897164,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2020,31.1322866175828,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2021,31.5342449659426,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2022,30.9312938882327,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2023,31.4267217641686,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+CHN,China,2024,31.6324437528704,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2004,22.2493042173759,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2005,22.131757184111,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2006,22.2306233143871,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2007,22.0203748051062,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2008,21.3502704279058,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2009,19.8872717103055,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2010,19.4896699994272,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2011,19.5605716592392,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2012,19.5790234623623,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2013,19.8032434024193,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2014,19.8362096579529,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2015,19.678506704267,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2016,19.6004288978866,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2017,19.5555626898736,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2018,19.7028367872634,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2019,19.7528962033625,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2020,19.4184044990188,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2021,19.183666430817,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2022,19.2767779678998,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2023,19.3356581942933,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+USA,United States,2024,19.0437070998445,SL.IND.EMPL.ZS,Employment in industry (% of total employment) (modeled ILO estimate),industry
+BRA,Brazil,2004,61.9524397646298,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2005,62.0771418496592,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2006,63.0885307990768,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2007,63.4103270792605,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2008,63.4621127884553,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2009,64.4202600185269,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2010,65.3018033710638,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2011,66.1773107789778,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2012,66.3315395090719,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2013,66.3183950467743,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2014,67.1198625659528,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2015,67.8477936325247,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2016,68.8324502760797,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2017,69.8641049402985,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2018,70.4130119931623,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2019,70.7201052429598,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2020,70.4294550707763,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2021,69.7709244507317,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2022,70.7768561313763,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2023,71.6256113357859,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+BRA,Brazil,2024,71.9821226349216,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2004,30.6002920912406,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2005,31.3997915890731,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2006,32.2001132949176,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2007,32.4000001442606,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2008,33.2001114321863,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2009,34.0999915084727,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2010,34.5995667971914,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2011,35.7000783844491,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2012,36.0998140108212,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2013,38.4998131034926,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2014,40.5990776614307,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2015,42.3997107404935,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2016,42.9334259446319,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2017,43.3458036346466,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2018,43.8847198791517,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2019,44.5192735154599,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2020,45.2678537038915,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2021,45.5969845625275,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2022,44.9886051327682,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2023,45.7723935112505,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+CHN,China,2024,46.1510599840955,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2004,75.8851332377365,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2005,76.066494367741,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2006,75.9946618722503,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2007,76.3029810018474,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2008,76.9321577342298,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2009,78.3806586965558,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2010,78.6583650732479,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2011,78.5679642618167,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2012,78.6183249587623,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2013,78.4672386465152,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2014,78.3945970965234,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2015,78.4249562193854,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2016,78.5031793161537,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2017,78.5619258229225,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2018,78.4780350193183,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2019,78.4587894445038,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2020,78.8351929532077,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2021,79.1539306226998,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2022,79.1026785021045,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2023,79.0947316958393,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
+USA,United States,2024,79.3873005029237,SL.SRV.EMPL.ZS,Employment in services (% of total employment) (modeled ILO estimate),services
